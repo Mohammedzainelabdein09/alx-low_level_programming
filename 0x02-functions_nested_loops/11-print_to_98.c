@@ -1,35 +1,25 @@
-#include<stdio.h>
+#include "main.h"
+#include <stdio.h>
+/**
+ * print_to_98 - print to 98
+ * @n : number to start from
+ * Return:0 or 1
+ */
+
 void print_to_98(int n)
 {
-if (n <= 98)
+
+while (n < 98)
 {
-for (; n <= 98; n++)
-{
-if (n == 98)
-{
-printf("%d, n");
-printf("\n");
-break;
+	printf("%i, ", n);
+	n++;
 }
-else 
+while (n > 98)
 {
-printf("%d" n);
+	printf("%i, ", n);
+	n--;
 }
-}
-}
-else
-{
-for (; n >= 98; n--)
-{
-if (n == 98)
-{
-printf("%d", n);
-printf("\n");
-break;
-}
-else
-{
-printf("%d, ", n);
-}
-}
+
+printf("98");
+putchar('\n');
 }
