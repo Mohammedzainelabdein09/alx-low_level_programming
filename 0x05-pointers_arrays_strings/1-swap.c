@@ -2,8 +2,7 @@
 
 /**
  * swp_int values of two intogers
- * using two paramters
- *
+ *         using two paramters
  * @a: input paramter 1
  * @b: input paramter 2
  *
