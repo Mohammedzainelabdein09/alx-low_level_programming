@@ -8,7 +8,7 @@
  * @b: input paramter 2
  *
  * Return: Nothing
- */
+*/
 
 void swap_int(int *a, int *b)
 {
