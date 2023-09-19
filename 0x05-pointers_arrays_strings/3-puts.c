@@ -3,18 +3,17 @@
 /**
  * _puts - prints a string, followod by a newline to stdout
  *
- * @str: string parameter to print  
+ * @str: input
  *
  * Return: Nothing
 */
 
 void _puts(char *str)
 {
-     while (*str != '\0')
-{
+	while (*str != '\0')
+	{
 	       _putchar(*str);
 	       str++;
-
 }
 	_putchar('\n');
 }
