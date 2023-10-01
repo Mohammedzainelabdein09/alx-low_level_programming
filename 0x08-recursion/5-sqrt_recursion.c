@@ -23,7 +23,7 @@ int sqrt_a(int x, int y)
 }
 
 /**
- * -sqrt_recursion - returns the natural square
+ * _sqrt_recursion - returns the natural square
  *  root of a number
  * @n: input number
  *
